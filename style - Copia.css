@@ -1,0 +1,47 @@
+body{
+    background-color: black;
+}
+
+@font-face{
+    font-family: Burtons;
+    src: url("NITEMARE.TTF");
+}
+
+h1{
+    font-family: Burtons;
+    font-size: 50px;
+    text-align: center;
+    color: aliceblue;
+}
+
+img {
+    width: 450px;
+    height: 300px;
+    border: 2px solid aliceblue;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgba(4, 53, 100, 0.303);
+}
+
+.galery{
+    display: flex;
+    flex-wrap: wrap;
+    width: fit-content;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    gap: 10px;
+    gap: 10px 20px; /* row-gap column gap */
+    row-gap: 10px;
+    column-gap: 20px;
+}
+
+p { 
+    color: aliceblue;
+    text-align: center;
+}
+
+.legenda{
+    display: block;
+}
